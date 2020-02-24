@@ -1,0 +1,54 @@
+* Hostname was found in DNS cache
+*   Trying 198.15.86.206...
+* Connected to preinspection.autoinspekt.com (198.15.86.206) port 80 (#15)
+> POST / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.3 Safari/533.2
+Host: preinspection.autoinspekt.com
+Accept: */*
+Referer: http://preinspection.autoinspekt.com/
+Cookie: ASP.NET_SessionId=ewxklz5k0owpd0told3ilepr
+Content-Length: 1041
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------ce69956545ddfab5
+
+* Done waiting for 100-continue
+< HTTP/1.1 100 Continue
+< HTTP/1.1 302 Found
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Location: /LoginMain.aspx
+* Server Microsoft-IIS/8.5 is not blacklisted
+< Server: Microsoft-IIS/8.5
+< X-AspNet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< X-Powered-By-Plesk: PleskWin
+< Date: Fri, 18 Mar 2016 11:14:55 GMT
+< Content-Length: 132
+* HTTP error before end of send, stop sending
+< 
+* Closing connection 15
+* Issue another request to this URL: 'http://preinspection.autoinspekt.com/LoginMain.aspx'
+* Violate RFC 2616/10.3.3 and switch from POST to GET
+* Hostname was found in DNS cache
+*   Trying 198.15.86.206...
+* Connected to preinspection.autoinspekt.com (198.15.86.206) port 80 (#16)
+> GET /LoginMain.aspx HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.3 Safari/533.2
+Host: preinspection.autoinspekt.com
+Accept: */*
+Referer: http://preinspection.autoinspekt.com/
+Cookie: ASP.NET_SessionId=ewxklz5k0owpd0told3ilepr
+
+< HTTP/1.1 200 OK
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Expires: Thu, 17 Mar 2016 11:14:56 GMT
+* Server Microsoft-IIS/8.5 is not blacklisted
+< Server: Microsoft-IIS/8.5
+< X-AspNet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< X-Powered-By-Plesk: PleskWin
+< Date: Fri, 18 Mar 2016 11:14:56 GMT
+< Content-Length: 46688
+< 
+* Connection #16 to host preinspection.autoinspekt.com left intact
